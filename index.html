@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Coming Soon!</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
+
 <body>
-	
+
 	<!--  -->
 	<div class="simpleslide100">
 		<div class="simpleslide100-item bg-img1" style="background-image: url('images/bg01.jpg');"></div>
@@ -51,12 +58,13 @@
 
 			<form class="w-full flex-w flex-c-m validate-form">
 
-				<div class="wrap-input100 validate-input where1" data-validate = "Valid email is required: ex@abc.xyz">
-					<input class="input100 placeholder0 s2-txt2" type="text" name="email" placeholder="Enter Email Address">
+				<div class="wrap-input100 validate-input where1" data-validate="Valid email is required: ex@abc.xyz">
+					<input class="input100 placeholder0 s2-txt2" type="text" name="email"
+						placeholder="Enter Email Address">
 					<span class="focus-input100"></span>
 				</div>
-				
-				
+
+
 				<button class="flex-c-m size3 s2-txt3 how-btn1 trans-04 where1">
 					Subscribe
 				</button>
@@ -64,11 +72,16 @@
 		</div>
 	</div>
 
-
-
-	
 	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/moment.min.js"></script>
+	<script src="js/moment-timezone.min.js"></script>
+	<script src="js/moment-timezone-with-data.min.js"></script>
 	<script src="js/countdowntime.js"></script>
+	<script src="js/tilt.jquery.min.js"></script>
+	<script src="js/main.js"></script>
 	<script>
 		$('.cd100').countdown100({
 			endtimeYear: 0,
@@ -77,9 +90,14 @@
 			endtimeHours: 18,
 			endtimeMinutes: 0,
 			endtimeSeconds: 0,
-			timeZone: "" 
+			timeZone: ""
 		});
 	</script>
-
+	<script>
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
 </body>
+
 </html>
