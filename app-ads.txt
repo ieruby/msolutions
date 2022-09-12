@@ -1499,3 +1499,4 @@ rubiconproject.com, 15278, RESELLER, 0bfd66d529a55807
 xad.com, 1190, RESELLER, 81cbf0a75a5e0e9a
 smartadserver.com, 3564, RESELLER
 indexexchange.com, 184738, RESELLER
+aps.amazon.com,8192472b-b300-4d92-82ca-fd4d91a1e453,DIRECT
